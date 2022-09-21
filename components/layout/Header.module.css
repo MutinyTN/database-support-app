@@ -1,6 +1,6 @@
 .navbar {
+    display:inline-flex;
     background: rgba(32, 32, 32, 0);
-    height: 70px;
     transition: background-color 1s ease 0s;
     width: 100%;
     align-items: center;
@@ -11,7 +11,7 @@
     flex-direction: row;
   }
 
-  .navbar-container {
+  .navbarContainer {
     align-items: center;
     padding: 10px;
   }

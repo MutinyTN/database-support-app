@@ -12,14 +12,9 @@ function Navbar() {
         <ul>
           <p>test</p>
           <Image src={logo} alt="skantz logo"></Image>
-          <NavbarItem children="/" name="home" />
-          <NavbarItem children="/about" name="About Us" />
-
-          <li>
-            <Link href="/blog/hello-world">
-              <a>Blog Post</a>
-            </Link>
-          </li>
+          <NavbarItem link="/" name="home"></NavbarItem>
+          <NavbarItem link="/about" name="About Us" />
+          <NavbarItem link="/about" name="About Us" />
         </ul>
       </div>
     </nav>

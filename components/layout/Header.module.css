@@ -1,0 +1,17 @@
+.navbar {
+    background: rgba(32, 32, 32, 0);
+    height: 70px;
+    transition: background-color 1s ease 0s;
+    width: 100%;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    flex-direction: row;
+  }
+
+  .navbar-container {
+    align-items: center;
+    padding: 10px;
+  }

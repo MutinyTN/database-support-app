@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="95.8099pt" height="95.8099pt" viewBox="0 0 95.8099 95.8099">
+<g enable-background="new">
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 47.9049 0 L 0 47.9049 L 47.9049 95.8099 L 95.8099 47.9049 Z " fill="#666666" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 23.9525 23.9525 L 47.9049 47.9049 L 23.9525 71.8574 L 0 47.9049 Z " fill="#666666" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 47.9049 0 L 71.8574 23.9525 L 47.9049 47.9049 L 23.9525 23.9525 Z " fill="#1a1a1a" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 71.8574 23.9525 L 95.8099 47.9049 L 71.8574 71.8574 L 47.9049 47.9049 Z " fill="#404040" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 47.9049 47.9049 L 71.8574 71.8574 L 47.9049 95.8099 L 23.9525 71.8574 Z " fill="#737373" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 47.6519 23.9525 L 23.6994 47.9049 L 47.6519 71.8574 L 71.6044 47.9049 Z " fill="#fbc55a" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" d="M 47.6519 71.8574 L 71.6044 47.9049 L 23.6994 47.9049 Z " fill="#6bb758" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,95.8099)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#ffffff" d="M 27.6549 47.7723 L 36.9083 47.8182 L 39.3278 43.901 L 43.8242 58.473 L 48.1284 43.8004 L 50.6801 48.0387 L 55.3306 48.0322 L 58.6343 56.0236 L 61.5249 48.0725 L 68.3348 48.0504 "/>
+</g>
+</svg>

@@ -1,17 +1,32 @@
 .navbar {
-    display:inline-flex;
-    background: rgba(32, 32, 32, 0);
+    display:flex;
     transition: background-color 1s ease 0s;
     width: 100%;
-    align-items: center;
     font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    flex-direction: row;
   }
 
   .navbarContainer {
-    align-items: center;
     padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+.menu{
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+}
+  .logo {
+    margin: 0 20px;
+    width: 50px;
+}
+  .navMenu {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, auto);
+    text-align: center;
+    grid-gap: 10px;
+    list-style: none;
   }

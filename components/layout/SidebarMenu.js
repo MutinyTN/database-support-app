@@ -3,7 +3,9 @@ import react, { useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 import IconButton from "@mui/material/IconButton";
-import NavbarItem from "./NavbarItem";
+import SidebarItem from "./SidebarItem";
+import styles from "./SidebarMenu.module.css";
+import Typography from "@mui/material/Typography";
 
 export default function SideMenu() {
   const [open, setOpen] = useState(false);
@@ -19,7 +21,7 @@ export default function SideMenu() {
   return (
     <>
       <IconButton
-        color="inherit"
+        color="primary"
         aria-label="open drawer"
         onClick={handleMenuOpen}
         edge="start"
@@ -31,7 +33,7 @@ export default function SideMenu() {
         sx={{
           flexShrink: 0,
           "& .MuiDrawer-paper": {
-            width: "200px",
+            width: "300px",
             boxSizing: "border-box",
           },
         }}
@@ -40,9 +42,11 @@ export default function SideMenu() {
         open={open}
         onClose={handleMenuClose}
       >
-        <ul>
-          <NavbarItem link="/" name="Home"></NavbarItem>
-          <NavbarItem link="/about" name="About Us" />
+        <ul className={styles.list}>
+          <Typography>
+            <SidebarItem link="/" name="Home" />
+            <SidebarItem link="/about" name="About Us" />
+          </Typography>
         </ul>
       </Drawer>
     </>

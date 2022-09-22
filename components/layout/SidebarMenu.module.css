@@ -1,0 +1,30 @@
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+
+.item {
+    height: 50px;
+  }
+  
+  .item > a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .item > a:hover {
+    border-bottom: 5px solid rgb(35, 35, 35);
+    transition: all 0.2s ease-out;
+  }
+  .item .active {
+    border-bottom: 5px solid rgb(34, 34, 34);
+  }
+  

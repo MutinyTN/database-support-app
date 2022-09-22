@@ -11,9 +11,9 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  }
+    box-shadow: rgba(33, 35, 38, 0.201) 0px 10px 10px -10px;  }
 .menu{
+    margin-left: 20px;
     display: inline-flex;
     padding: 10px;
     align-items: center;
@@ -30,3 +30,7 @@
     grid-gap: 10px;
     list-style: none;
   }
+
+.button {
+    margin: 0 10px;
+}

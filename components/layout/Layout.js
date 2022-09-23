@@ -1,7 +1,6 @@
 import Navbar from "./Header";
 import Footer from "./Footer";
 import styles from "./Header.module.css";
-import { ThemeContextProvider } from "../../context/themeContext";
 import { lightTheme } from "../../styles/theme/lightTheme";
 import { darkTheme } from "../../styles/theme/darkTheme";
 import { ThemeContext } from "../../context/themeContext";

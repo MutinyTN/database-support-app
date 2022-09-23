@@ -6,7 +6,7 @@ import logo from "../../public/logo.svg";
 import NavbarItem from "./NavbarItem";
 import SideMenu from "./SidebarMenu";
 import Button from "@mui/material/Button";
-
+import Paper from "@mui/material/Paper";
 import IconButton from "@mui/material/IconButton";
 
 import Brightness4Icon from "@mui/icons-material/Brightness4";
@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.navbarContainer}>
+      <Paper elevation={0} className={styles.navbarContainer}>
         <div className={styles.menu}>
           <SideMenu />
 
@@ -33,20 +33,14 @@ function Navbar() {
         <ul className={styles.navMenu}>
           <NavbarItem link="/" name="Home"></NavbarItem>
           <NavbarItem link="/about" name="About Us" />
-          <Button
-            href="/priser"
-            variant="contained"
-            size="large"
-            color="inherit"
-            className={styles.button}
-          >
+          <Button href="/priser" variant="contained" size="large">
             Priser
-          </Button>{" "}
+          </Button>
           <IconButton sx={{ ml: 1 }} onClick={toggleFunction} color="inherit">
-            {toggle ? <Brightness7Icon /> : <Brightness4Icon />}
+            {toggle ? <Brightness4Icon /> : <Brightness7Icon />}
           </IconButton>
         </ul>
-      </div>
+      </Paper>
     </nav>
   );
 }
